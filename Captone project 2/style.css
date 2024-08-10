@@ -1,0 +1,26 @@
+img[alt="Mib"]
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+p{
+    color: rgb(105, 97, 71);
+    font-family: 'Playfair Display', serif;
+}
+h1,h2{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.herosec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('images.jpg');
+    background-size: cover; /* Adjust to cover the entire section */
+    background-position: center; /* Center the background image */
+    margin: 0px !important;
+}
